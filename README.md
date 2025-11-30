@@ -57,3 +57,55 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+intall
+
+1. Install Git
+If you don’t already have Git installed:
+
+Download it from: https://git-scm.com/downloads
+
+Install it with the default settings.
+
+2. Open a terminal
+Windows: Git Bash or Command Prompt
+
+macOS: Terminal
+
+Linux: Terminal
+
+3. Run the clone command
+Get the GitHub repo URL, then run:
+
+bash
+Copy code
+git clone https://github.com/USERNAME/REPOSITORY.git
+Example:
+
+bash
+Copy code
+git clone https://github.com/angular/angular-tour-of-heroes.git
+This creates a folder with the project on your machine.
+
+4. Install dependencies
+Go into the project folder:
+
+bash
+Copy code
+cd your-project-folder
+Then install packages:
+
+bash
+Copy code
+npm install
+5. Start the Angular app
+bash
+Copy code
+ng serve
+If ng is not recognized, install the Angular CLI:
+
+bash
+Copy code
+npm install -g @angular/cli
+
